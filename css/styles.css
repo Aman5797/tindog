@@ -1,0 +1,151 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+h1,
+h2,
+h2,
+h3,
+h5,
+h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 2% 15% 7%;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Download Button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+.feature-box {
+  padding: 4.5%;
+}
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  padding: 1rem;
+}
+#press {
+  background-color: #ef8172;
+  padding: 3% 3% 7%;
+}
+.press-logo {
+  width: 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+/* Call TO Action */
+#cta {
+  padding: 3% 7%;
+}
+
+.cta-heading {
+  padding: 0 3%;
+}
+
+/* Footer */
+#footer {
+  padding: 3% 7%;
+}
+.social-icons {
+  padding: 1rem;
+  color: #444343;
+}
+.social-icons:hover {
+  color: #000;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    margin-top: 2rem;
+  }
+}
